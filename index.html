@@ -1,155 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Apurva Patil | Portfolio</title>
-<link rel="stylesheet" href="style1.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apurva Patil | Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<nav>
-    <div class="logo">Portfolio</div>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<section class="hero">
-    <div class="hero-content">
-        <h1>Apurva Patil</h1>
-        <h3>Computer Science Student</h3>
+    <section class="hero">
+        
+        <div class="hero-content">
+            <h1 id="name">Apurva Patil</h1>
+            <h3>Computer Science Student</h3>
+            <p>
+                <br>Hi, I'm a passionate Web Developer and Computer Science student skilled in HTML, CSS,Bootstrap,
+                JavaScript, PHP, Java, and Python. I have successfully completed a Web Development Internship at CodSoft.</p>
+            
+            <a href="Resume.pdf" class="btn" id="btn1" target="_blank">View CV</a>
+            <a href="Resume.pdf" class="btn" id="btn2" download class="btn">Download CV </a>
+        
+        </div>
+         
+        <div class="hero-image">
+        <video id="coderVideo" controls controlsList="nodownload" >
+        <source src="download1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+        </div>
+    </section>
+   <section class="quote-section">
+        <i class="fas fa-quote-left"></i>
         <p>
-            Hi, I'm a passionate Web Developer and Computer Science student skilled in HTML, CSS,
-            Bootstrap, JavaScript, PHP, Java, and Python. Currently, I am doing a Web Development Internship at CODSOFT.
+            "Code is more than syntax—it's the art of turning ideas into reality."
         </p>
-        <a href="resume.pdf" class="btn" id="btn1" download>Download CV</a>
-        <a href="#project" class="btn" id="btn2">View Project</a>
-    </div>
-</section>
+        <span>— Apurva Patil</span>
+    </section>
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
 
-<section id="about">
-    <h2 class="section-title">About Me</h2>
+        <div class="about">
+            <img src="coder.jpg" alt="Apurva Patil">
 
-    <div class="about">
-        <img src="pimage.png" alt="Apurva Patil">
+            <div class="about-text">
+                <p id="bio2">
+                    Hello, my name is <strong> Apurva Shailesh Patil </strong>, and I am from Chhatrapati Sambhajinagar,
+                    Maharashtra. I have completed my Bachelor degree in Computer Science and now i am currently pursuing
+                    a Master’s degree in Computer Science.
 
-        <div class="about-text">
-            <p id="bio2">
-                Hello, my name is Apurva Shailesh Patil, and I am from Aurangabad, Maharashtra. I have completed my Bachelor of Science in Computer Science and am currently pursuing a Master’s degree in Computer Science.
+                    Talking about my skills, I am proficient in Java and web designing, and I also possess strong
+                    communication skills. I have good grasping power, which helps me learn new technologies quickly. I
+                    have completed certification courses such as PCB and MKCL, which have further strengthened my
+                    technical knowledge.
 
-        Talking about my skills, I am proficient in Java and web designing, and I also possess strong communication skills. I have good grasping power, which helps me learn new technologies quickly. I have completed certification courses such as PCB and MKCL, which have further strengthened my technical knowledge.
+                    Apart from academics, my hobbies include dancing, travelling, and exploring new things. I enjoy
+                    learning from new experiences and continuously working on improving myself both personally and
+                    professionally.
+                </p>
+            </div>
 
-        Apart from academics, my hobbies include dancing, travelling, and exploring new things. I enjoy learning from new experiences and continuously working on improving myself both personally and professionally.
-            </p>
         </div>
-    </div>
-</section>
+        </div>
+    </section>
 
-<section id="skills">
-    <h2 class="section-title">My Skills</h2>
+    <section id="skills">
+        <h2 class="section-title">Technical Skills </h2>
+        <div class="skills-grid">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Java</div>
+            <div class="card">Python</div>
+            <div class="card">OOPS</div>
+            <div class="card">Responsive Web Design</div>
+        </div>
+
+    </section>
+    <section id="skills1">
+        <h2 class="section-title">Soft Skills</h2>
+        <div class="skills-grid">
+            <div class="card">Problem Solving</div>
+            <div class="card">communication</div>
+            <div class="card">Teamwork</div>
+            <div class="card">Adaptability</div>
+            <div class="card">Quick Learner</div>
+            <div class="card">Leadership</div>
+
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="card">
+                <h3>10th</h3>
+                <p> <b>School:</b> Swami Vivekananda academy</p>
+                <p><b>Percentage:</b>91.40%</p>
+                <p><b>Passing Year:</b>2020</p>
+            </div>
+            <div class="card">
+                <h3>12th</h3>
+                <p> <b>College:</b> Nivrutirao higher and secondary higher education</p>
+                <p><b>Percentage:</b>90.33</p>
+                <p><b>Passing Year:</b>2022</p>
+            </div>
+
+            <div class="card">
+                <h3>BCS</h3>
+                <p><b>College:</b>KK Wagh ACS & CS College</p>
+                <p><b>Current Status:</b>Completed</p>
+                <p> <b>CGPA</b> 8.45</p>
+                <p><b>Passing Year:</b>2025</p>
+            </div>
+            <div class="card">
+                <h3>MCS</h3>
+                <p> <b>College:</b> Samarth Group Of Institute</p>
+                <p><b>Current Status:</b>currently pursuing</p>
+                <p><b>Passing year:</b>2027</p>
+            </div>
+
+        </div>
+    </section>
+
+        <section id="certifications">
+    <h2 class="section-title">Certifications</h2>
+
     <div class="skills-grid">
-        <div class="card">HTML</div>
-        <div class="card">CSS</div>
-        <div class="card">JavaScript</div>
-        <div class="card">Java</div>
-        <div class="card">Python</div>
-    </div>
-</section>
 
-<section id="education">
-    <h2 class="section-title">Education</h2>
-    <div class="education-grid">
         <div class="card">
-            <h3>BCS</h3>
-            <p><b>Collage:</b>KK Wagh ACS & CS College</p>
-            <p><b>Current Status:</b>Completed</p>
-            <p> <b>CGPA</b> 8.45</p>
-            <p><b>Passout:</b>2025</p>
-           <a href="result.pdf" target="_blank"> <button class="btn">View Result</button></a>
+            <i class="fa-solid fa-award"></i>
+            <h3>Web Development Internship</h3>
+            <p>CodSoft</p>
+            <p>Completed a one-month internship focused on HTML, CSS, JavaScript, and responsive web development.</p>
         </div>
+
         <div class="card">
-            <h3>MCS</h3>
-            <p> <b>Collage:</b> Samarth Group Of Instituent</p>
-            <p><b>Current Status:</b>currently pursuing</p>
-            <p><b>Passout:</b>2027</p>
+            <i class="fa-solid fa-award"></i>
+            <h3>MKCL Certification</h3>
+            <p>Maharashtra Knowledge Corporation Limited</p>
+            <p>Successfully completed computer literacy and office productivity training.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-award"></i>
+            <h3>PCB Certification</h3>
+            <p>Programming & Computer Basics</p>
+            <p>Completed foundational programming and computer concepts certification.</p>
         </div>
 
     </div>
-</section>
+    </section>
 
-<section id="experience">
-    <h2 class="section-title">Experience</h2>
-    <div class="experience-box">
-        <h3>Web Development Intern at</h3>
-        <p><strong>CODSOFT</strong></p>
-        <p>Working on web development projects using HTML, CSS and JavaScript.</p>
-    </div>
-</section>
+    <section id="project">
+        <h2 class="section-title">Featured Project</h2>
+        <div class="project">
+            <img src="projectpic1.jpg" alt="Auction Project">
+            <div class="project-content">
+                <h3>Online Auction Management System</h3>
+                <p>
+                    The Online Auction Management System is a web-based platform that allows users to list items,
+                    place bids, and purchase products through competitive bidding.
+                </p>
+                <!-- <p><b>Frontend:</b> HTML, CSS, Bootstrap, JavaScript<br>
+                    <b>Backend:</b> PHP, jQuery, JavaScript<br>
+                    <b>Database:</b> MySQL
+                </p> -->
+                <div class="tech-stack">
 
-<section id="project">
-    <h2 class="section-title">Featured Project</h2>
-    <div class="project">
-        <img src="projectpic1.jpg" alt="Auction Project">
-        <div class="project-content">
-            <h3>Online Auction Management System</h3>
-            <p>
-                The Online Auction Management System is a web-based platform that allows users to list items,
-                place bids, and purchase products through competitive bidding.
-            </p>
-            <p><b>Frontend:</b> HTML, CSS, Bootstrap, JavaScript<br>
-            <b>Backend:</b> PHP, jQuery, JavaScript<br>
-            <b>Database:</b> MySQL</p>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Bootstrap</span>
+    <span>JavaScript</span>
+    <span>PHP</span>
+    <span>MySQL</span>
 
-            <a href="Auction/Auction/login.php" class="btn" target=
-            "_blank">View Project Code</a>
-            <a href="project.pdf" class="btn">Documentation</a>
-        </div>
-    </div>
-</section>
-<section id="internship">
-    <div class="internship">
-    <h2 class="section-title">Internship</h2>
-    <p>Currently pursuing a Web Development Internship at CodSoft, working on responsive web applications using HTML, CSS, JavaScript, and Bootstrap while gaining hands-on industry experience.</p>
-    <center><a href="ol.pdf" class="btn" target="_blank" >View OL</a></center>
 </div>
-</section>
-<section>
-    <h2 class="section-title">Resume</h2>
-    <center><a href="resume.pdf" class="btn"  download>Download Resume</a></center>
-</section>
 
-<footer>
-<section id="contact">
-    <h2 class="section-title">Contact Me</h2>
-
-    <div class="contact-container">
-        <div class="qr-section">
-            <h3 class="qr-title">Scan QR to Connect on LinkedIn</h3>
-            <img src="linkdin.jpg" alt="LinkedIn QR Code" class="qr-code">
+                <a href="project.pdf" class="btn">Documentation</a>
+            </div>
         </div>
+    </section>
+    <section id="internship">
+        <div class="internship">
+            <h2 class="section-title">Internship</h2>
+            <p><b>Web Development Intern at CodSoft</b>
+                <br>
 
-        <div class="contact-info">
-         <p><strong>Email:</strong> apurvapatil5111@gmail.com</p>
-            <p><strong>Phone:</strong> XXXX XXXX XX</p>
-            <p>
-                <!-- <strong>LinkedIn:</strong> -->
-                <a href="www.linkedin.com/in/apurva-patil-8bb02b328" target="_blank">
-                    Linkdin Profile
-                </a>
+                <b>Duration:</b> 10 May 2026 - 10 June 2026
+                <br>
+                <b>Technologies:</b> HTML, CSS, JavaScript, Bootstrap <br>
+                <b>Projects:</b> Portfolio Website, Landing Page, Calculator
             </p>
+            <center> <a href="ol.pdf" class="btn" target="_blank">View OL</a>
+                <a href="completion_certificate.pdf" class="btn" target="_blank">View completion certificate </a>
+            </center>
         </div>
+    </section>
+    <footer>
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
 
-    </div>
-</section>
-</footer>
-      <p id="footertitle">© 2026 Apurva Patil. All Rights Reserved.</p>
+<div class="social-icons">
+    <a href="https://github.com/apurvapatil14" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/apurva-patil-8bb02b328" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=apurvapatil5111@gmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+        </section>
+    </footer>
+    <p id="footertitle">© 2026 Apurva Patil. All Rights Reserved.</p>
+<a href="#" class="top-btn">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
 </body>
+
 </html>
