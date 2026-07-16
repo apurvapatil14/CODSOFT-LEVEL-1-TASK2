@@ -439,8 +439,8 @@ nav ul{
 }
 
 .btn{
-    display:block;
-    width:220px;
+    display:inline-block;
+   width:220px;
     margin:15px auto;
 }
 
@@ -478,6 +478,7 @@ nav ul{
 
 .btn{
     width:180px;
+    display:inline;
 }
 
 .contact-container{
